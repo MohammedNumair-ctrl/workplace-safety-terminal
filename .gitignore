@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated outputs and model weights
+outputs/*
+!outputs/.gitkeep
+*.pt
+*.onnx
+
+# Local evidence may be large; add only if submission rules require it
+evidence/*
+!evidence/.gitkeep
+
+.DS_Store
